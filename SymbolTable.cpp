@@ -31,7 +31,7 @@ private:
 		unsigned long id = 0;
 		int length = name.length();
 		for (int i = 0; i < length; i++) {
-			id = id * 34 + name[i];
+			id = id * 31 + name[i];
 		}
 
 		return id % 19997;

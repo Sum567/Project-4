@@ -1,5 +1,6 @@
 Debug/
 *.zip
-*.txt
+hw.txt
+report.txt
 *.vcxproj
 *.vcxproj.filters
